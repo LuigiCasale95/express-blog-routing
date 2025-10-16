@@ -6,7 +6,7 @@ const app = express();
 const port = 3000;
 
 // importiamo modulo router pizze
-const postsRouter = require("./router/posts.js")
+const postsRouter = require("./router/posts")
 
 /*usiamo il middleware static di express (per remdere disponibile il file statico ovvero le img in questo caso)*/
 app.use(express.static("public"));

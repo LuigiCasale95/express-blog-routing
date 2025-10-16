@@ -6,7 +6,6 @@ const router = express.Router();
 
 // Rotte di CRUD sulla risorsa post
 
-
 // index
 router.get('/', function (req, res) {
     res.send('Lista dei post');
